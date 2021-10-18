@@ -9,8 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header class="container-fluid bg-dark">
+<body id="app">
+    <header class="container-fluid bg-dark fixed-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -20,10 +20,10 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#navbarNav">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#app">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#Menu">Menu</a>
@@ -134,11 +134,66 @@
             </div>
         </div>
     </section>
-    <section id="About"  class="container-fluid bg-dark">
+    <section id="About"  class="container-fluid bg-dark text-white">
         <div class="container">
             <div class="row">
-                <div class="col text-white">
+                <div class="col">
                     <h2>About</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="fs-4">Specializing in seafood & vegetarian fare, this homey Chinese eatery also prepares meat dishes. Address: 2129 Taraval St, San Francisco, CA 94116, United States</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>Location & Hours</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col h-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12620.152738573657!2d-122.4890427!3d37.7422484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xed62d978fa96d139!2sMing&#39;s%20Diner!5e0!3m2!1sen!2ssa!4v1634584715562!5m2!1sen!2ssa" width="100%" height="330" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col h-100">
+                    <table class="table table-dark table-hover table-striped table-bordered ">
+                       <thead>
+                           <tr>
+                               <th>Day</th>
+                               <th>Time</th>
+                           </tr>
+                       </thead>
+                       <tbody>
+                           <tr>
+                               <td>Mon</td>
+                               <td>11:00 AM - 8:00 PM</td>
+                           </tr>
+                           <tr>
+                               <td>Tue</td>
+                               <td>11:00 AM - 10:00 PM</td>
+                           </tr>
+                           <tr>
+                               <td>Wed</td>
+                               <td>11:00 AM - 10:00 PM</td>
+                           </tr>
+                           <tr>
+                               <td>Thu</td>
+                               <td>11:00 AM - 10:00 PM</td>
+                           </tr>
+                           <tr>
+                               <td>Fri</td>
+                               <td>11:00 AM - 10:00 PM</td>
+                           </tr>
+                           <tr>
+                               <td>Sat</td>
+                               <td>11:00 AM - 10:00 PM</td>
+                           </tr>
+                           <tr>
+                               <td>Sun</td>
+                               <td>11:00 AM - 10:00 PM</td>
+                           </tr>
+                       </tbody>
+                    </table>
                 </div>
             </div>
         </div>
