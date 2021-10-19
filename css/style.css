@@ -8,3 +8,11 @@ section {
     background-color: #911d1f;
     color: #fff;    
 }
+#About{
+    padding-top: 10px;
+    background-image: url('../imgs/bg-section.jpg');
+    background-size: cover;
+}
+#About table{
+    opacity: 0.8;
+}
