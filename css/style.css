@@ -16,3 +16,12 @@ section {
 #About table{
     opacity: 0.8;
 }
+.scrollTop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    border: 1px solid #fff5;
+}
